@@ -1,0 +1,270 @@
+/*Navbar mobile*/
+.mobile-navbar {
+  height: 90px;
+  background-color: #082567;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile-navbar .logo-section {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.mobile-navbar .logo-section > div {
+  background-color: #fff;
+  height: 70%;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.mobile-navbar .logo-section > div > img {
+  width: 100%;
+  height: 100%;
+}
+
+.mobile-navbar .logo-section > p {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.mobile-navbar .actions-navbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mobile-navbar .actions-navbar > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.mobile-navbar .actions-navbar > div > img {
+  width: 2rem;
+}
+
+/*top cards mobile*/
+.cards-mobile {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f5ff;
+  padding: 1rem;
+}
+
+.cards-mobile .link > div {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cards-mobile .link > div > img {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+}
+
+.cards-mobile .link > div > .student {
+  background-color: #4d44b5;
+}
+
+.cards-mobile .link > div > .medal {
+  background-color: #fb7d5b;
+}
+
+.cards-mobile .link > div > .calendar {
+  background-color: #fcc43e;
+}
+
+.cards-mobile .link > div > p {
+  color: #7e7e7e;
+  font-weight: 500;
+}
+
+.cards-mobile .link > div > span {
+  color: #4d4d4d;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+/*Schedule mobile*/
+.schedule-mobile {
+  padding: 1rem;
+  border-top: 1px solid #082567;
+}
+
+.schedule-mobile > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.schedule-mobile > div > h2 {
+  font-size: 1rem;
+  color: #082567;
+}
+
+.schedule-mobile > div > img {
+  width: 24px;
+  height: 24px;
+}
+
+.schedule-mobile > ul {
+  list-style: none;
+  /* display: flex;
+  flex-direction: column;
+  width: 100%; */
+}
+.schedule-mobile > ul > li {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0px 2px 16px 0px rgba(8, 37, 103, 0.08);
+}
+
+.schedule-mobile > ul > li > p {
+  position: relative;
+  font-size: 0.8rem;
+  color: #344055;
+  font-weight: 600;
+  width: 50%;
+}
+
+.schedule-mobile > ul > li > p > span {
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+  color: #838383;
+  font-weight: 400;
+}
+
+.schedule-mobile > ul > li > img {
+  width: 29px;
+  height: 29px;
+}
+
+.schedule-mobile > ul > div > section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #f4f4f4;
+  border-radius: 0px 0px 12px 12px;
+  padding: 1rem;
+  column-gap: 0.75rem;
+  row-gap: 10px;
+  /* height: 15vh; */
+}
+
+.schedule-mobile > ul > div > section > div {
+  background-color: #fff;
+  padding: 0.75rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.schedule-mobile > ul > div > section > div > h3 {
+  color: #082567;
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+.schedule-mobile > ul > div > section > div > p {
+  color: #434343;
+  font-size: 0.75rem;
+}
+
+/*Recent students*/
+.recent-students-mobile {
+  border-top: 1px solid #082567;
+  background-color: #f8f5ff;
+}
+
+.recent-students-mobile > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+  background-color: #fff;
+}
+
+.recent-students-mobile > div > h3 {
+  color: #082567;
+  font-size: 1rem;
+  position: relative;
+  width: 50%;
+}
+
+.recent-students-mobile > div > h3 > span {
+  color: #a098ae;
+  font-size: 0.8rem;
+  font-weight: 400;
+  position: absolute;
+  left: 0;
+  bottom: -0.8rem;
+}
+
+.recent-students-mobile > div > img {
+  width: 29px;
+  height: 29px;
+}
+
+.recent-students-mobile > ul {
+  list-style: none;
+  padding: 1rem 1.5rem;
+}
+
+.recent-students-mobile > ul > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.recent-students-mobile > ul > li > div {
+  display: flex;
+  gap: 1rem;
+}
+
+.recent-students-mobile > ul > li > div .avatar-container {
+  width: 40px;
+  height: 40px;
+}
+
+.recent-students-mobile > ul > li > div > p {
+  position: relative;
+  color: #303972;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.recent-students-mobile > ul > li > div > p > span {
+  position: absolute;
+  left: 0;
+  top: 1.5rem;
+  color: #a098ae;
+  font-weight: 400;
+}
+
+.recent-students-mobile > ul > li .mail-icon {
+  border: 2px solid #a098ae;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recent-students-mobile > ul > li .mail-icon > img {
+  width: 20px;
+  height: 20px;
+}
